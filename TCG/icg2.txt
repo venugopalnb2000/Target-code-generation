@@ -1,0 +1,20 @@
+i = 0
+i = 10
+L1:
+t0 = i < 10
+ifFalse t0 goto L2: 
+j = 10
+L3:
+t1 = j >= 0
+ifFalse t1 goto L4: 
+t2 = j - 1
+j = t2
+goto L3
+L4:
+t4 = t2 + a 
+a = t4
+t3 = i + 1
+t4 = p
+i = t3
+goto L1
+L2: 

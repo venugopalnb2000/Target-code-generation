@@ -1,0 +1,15 @@
+i = 0
+dp = 0
+L1:
+t0 = i <= 10
+ifFalse t0 goto L2
+t1 = &a
+t2 = i * 4
+t3 = t1 + t2
+t4 = &b
+t5 = t4 + t2
+t6 = t3 * t5
+dp = dp + t6
+i = i + 1
+goto L1
+L2:
